@@ -1,0 +1,24 @@
+/* Import Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Global Styles */
+body {
+  @apply bg-gray-100 text-gray-800;
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  @apply transition duration-200 ease-in-out;
+}
+
+input:focus, textarea:focus, select:focus {
+  @apply outline-none ring-2 ring-blue-500;
+}

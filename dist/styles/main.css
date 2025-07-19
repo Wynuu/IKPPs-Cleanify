@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9fafb;
+}
+
+.header {
+  background-color: #2563eb;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav li {
+  cursor: pointer;
+}
+
+.task-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.task-details {
+  padding: 1rem;
+}
+
+.calendar-view {
+  padding: 1rem;
+}
+
+@media (max-width: 576px) {
+  .header {
+    font-size: 14px;
+  }
+
+  .task-card {
+    font-size: 12px;
+  }
+}
