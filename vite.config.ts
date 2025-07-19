@@ -11,9 +11,7 @@ export default defineConfig({
     },
   },
 
-  define: {
-    __DFINES__: {},
-  },
+  // define: {},
   server: {
     port: 3000,
   },
