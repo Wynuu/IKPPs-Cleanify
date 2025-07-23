@@ -1,0 +1,16 @@
+{
+  "name": "IKPPs Cleanify",
+  "short_name": "Cleanify",
+  "description": "Warehouse Cleaning Dashboard",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f5f6fa",
+  "theme_color": "#a18cd1",
+  "icons": [
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
